@@ -9,8 +9,6 @@
   background-color: white;
   width:370px;
   height:445px;
-  /* margin-bottom:20px; */
-  /* margin-right: 15px; */
   margin:6px;
 }
 .card-homecard:hover{
@@ -358,324 +356,6 @@
   padding-top: 0.3%;
   font-size: 125%;
 }
-@media(width<=2560px){
-  .img-ngocard{
-    height: 80%;
-    display: inline;
-  }
-    .logo-ngocard{
-      height: 100%;
-      width:90%;
-      margin-top: 4%;
-    }
-}
-@media (width<=882px){
-  .second-homepage{
-    font-size: 130%; 
-  }
-  .top-ngocard {
-    font-size: 180%;
-  }
-  .see-ngocard{
-    font-size: 170%;
-  }
-  .logo-ngocard{
-    height: 50%;
-  }
-  .email-footer{
-    font-size: 100%;
-  }
-  .slogan-homepage{
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-  .banner-homepage{
-    height: 500%;
-  }
-}
-@media (width<=803px){
-  .div3-footer p{
-    font-size: 100% ;
-  }
-  .layout-highligths ul li{
-    font-size: 100%;
-  }
-  .email-footer{
-    font-size: 90%;
-  }
-  .form-contact textarea{
-    width: 500px;
-
-  }
-}
-@media only screen and (width>=565px) and (width<=764px){
-  .card-homecard{
-    width:45%;
-    height: 100%;
-  }
-  .more-homecard{
-    padding-bottom: 4%;
-  }
-  .head-homepage{
-    font-size: 345%;
-  }
-  .second-homepage{
-    font-size: 140%; 
-  }
-  .topic-homecard{
-    font-size: 130%;
-  }
-  .logo-ngocard{
-    height: 40%;
-    width:110%;
-  }
-}
-@media(width<=768px){
-  .head-homepage{
-    font-size: 300%;
-  }
-}
-@media (width<=690px){
-   .div1-footer{
-    width: 30%;
-   }
-   .div2-footer{
-    width: 20%;
-   }
-   .div3-footer{
-    width: 50%;
-   }
-   .div4-footer{
-    display: none;
-    visibility: hidden;
-   }
-   .second-homepage{
-    font-size: 110%; 
-  }
-  .banner-homepage{
-    height: 100%;
-  }
-  .email-footer{
-    font-size: 100%;
-  }
-  .layout-highligths ul li{
-    font-size: 90%;
-  }
-  .header-contact h1{
-    font-size: 190%;
-  }
-  .head-highligths h2{
-    font-size: 100%;
-  }
-  .header-contact h3{
-    font-size: 90%;
-  }
-  .inquiries-contact{
-    font-size: 100%;
-  }
-  .box-footer{
-    height: 150%;
-  }
-}
-@media (width<=634px){
-  .card-ngocard{
-    height: 100%;
-    padding: 3%;
-  }
-  .img-ngocard{
-    display: none;
-    visibility: hidden;
-  }
-  .box-ngocard{
-    width: 100%;
-    height: 100%;
-    
-  }
-}
-@media (width<=581px){
-  .header-contact h1{
-    font-size: 150%;
-  }
-  .email-footer{
-    font-size: 90%;
-  }
-}
-@media(width<=555px)
-{
-  .form-contact input{
-    width:360px;
-  }
-  .form-contact textarea{
-    width:360px;
-    height:70px;
-
-  }
-  .form-feedback input{
-    width:360px;
-  }
-  .form-feedback textarea{
-    width:360px;
-  }
-  .div2-footer{
-    display: none;
-    visibility: hidden;
-   }
-   .div1-footer{
-    width: 45%;
-   }
-   .div3-footer{
-    width: 60%;
-   }
-   .email-footer{
-    font-size: 120%;
-  }
-  .second-homepage{
-    font-size: 100%; 
-  }
-  .first-homepage{
-    font-size:78%;
-  }
-}
-@media (width<=481px){
-  .header-contact h1{
-    font-size: 120%;
-  }
-  .second-homepage{
-    font-size: 83%; 
-  }
-  .head-highligths h1{
-    font-size: 140%;
-  }
-  .head-highligths h2{
-    font-size: 90%;
-  }
-  .sublay-highligths ul li{
-    font-size: 80%;
-  }
-  .email-footer{
-    font-size: 112%;
-  }
-  .head-homepage{
-    font-size: 250%;
-  }
-}
-@media (width<=426px){
-  .second-homepage{
-    font-size: 80%; 
-  }
-  .subbox-footer{
-    display: inline;
-  }
-  .div1-footer{
-    height: 50%;
-    width:100%;
-  }
-  .div3-footer{
-    height: 45%;
-    width: 100%;
-  }
-  .head-highligths{
-    margin: 0px;
-  }
-  .sublay-highligths{
-    display: inline;
-    height: 90%;
-    padding: 3%;
-  }
-  .layout-highligths{
-    height:300px;
-    padding:3%;
-  }
-}
-@media (width<=406px){
-  .form-contact input{
-    width:300px;
-  }
-  .form-contact textarea{
-    width:300px;
-    height:70px;
-  }
-  .form-feedback input{
-    width:300px;
-  }
-  .form-feedback textarea{
-    width:300px;
-  }
-  .header-contact h1{
-    font-size: 100%;
-  }
-  .header-contact h3{
-    font-size: 75%;
-  }
-  .card-homecard{
-    width:90%;
-  }
-  .topic-homecard{
-    font-size: 160%;
-  }
-  .head-homepage{
-    font-size: 200%;
-  }
-  .header-contact{
-    height: 150px;
-    padding-top: 8%;
-  }
-  .sublay-highligths{
-    height: 95%;
-  }
-}
-@media (width<=373px){
-  .sublay-highligths ul li{
-    font-size: 70%;
-  }
-  .second-homepage{
-    font-size: 70%; 
-  }
-  .first-homepage{
-    font-size: 50%;
-  }
-  .third-homepage{
-    font-size: 50%;
-  }
-}
-@media(width<=353px){
-  .header-contact h1{
-    font-size: 80%;
-  }
-  .form-contact input{
-    width:280px;
-  }
-  .form-contact textarea{
-    width:280px;
-    height:65px;
-  }
-  .form-feedback input{
-    width:280px;
-  }
-  .form-feedback textarea{
-    width:280px;
-  }
-  .second-homepage{
-    font-size: 60%; 
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1001,110 +681,8 @@ a{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
     transition: ease-in-out 0.3s;
 }
-/*FOOTER*/
-/* 
-.footer{
-
-  position: fixed;
-  width:100%;
-  background-image:url("./shared/components/footer.PNG");
-  background-size:100% 100%;
-  padding:20px 0px;
-  margin-top: 500px;
-  }
-  
-  
-  .footer section{
-  width:20%;
-  padding:2%;
-  align-items: center;
-  display:inline-block;
-  align-items:flex-end;
-  }
-  
-  .links{
-    float: right;
-  }
-  .link{
-    padding-right: 20px;
-  }
-  
-  .footer img{
-  width:200px;
-  height:80px;
-  font-size:2em;
-  }
-  
-  .footer p{
-  font-size:12px;
-  color:#fff;
-  }
-  
-  .footer section .title{
-  color:#fff;
-  font-size:1em;
-  }
-  
-  .footer section .title:before{
-  content:"";
-  }
-  
-  .footer section a{
-  text-decoration:none;
-  color:#fff;
-  font-size:14px;
-  transition:0.5s;
-  }
-  
-  .footer section a:hover{
-  color: rgb(11, 81, 173);
-  }
-  
-  .footer section input{
-  width:70%;
-  border:0;
-  outline:none;
-  height:30px;
-  padding:5px;
-  }
-  
-  .footer section button{
-  width:50px;
-  height:40px;
-  padding:10px 5px;
-  outline:none;
-  border:0;
-  background:#CCCCCC;
-  color:#193aab;
-  }
-  
-  .footer section .fa-map-marker,.footer section .fa-phone,.footer section .fa-envelope{
-  font-size:23px;
-  margin:10px;
-  transition:0.5s;
-  }
-  
-  .footer section i:hover{
-  color:#fff;
-  }
-  
-  .sub-footer{
-  text-align:center;
-  font-size:14px;
-  color:whitesmoke;
-  padding:10px 0px;
-  }
-*/
-
-
-
-
-
-
-
-
-  /* ABOUT PAGE */
-  .about {
+/* ABOUT PAGE */
+.about {
     width: 100%;
     height: 800px;
     /* outline: solid 1px black; */
@@ -1403,3 +981,336 @@ a{
       margin-left: 300px;
     }  
   }
+
+
+
+
+
+
+
+
+
+
+
+
+@media(width<=2560px){
+  .img-ngocard{
+    height: 80%;
+    display: inline;
+  }
+    .logo-ngocard{
+      height: 100%;
+      width:90%;
+      margin-top: 4%;
+    }
+}
+@media (width<=882px){
+  .second-homepage{
+    font-size: 130%; 
+  }
+  .top-ngocard {
+    font-size: 180%;
+  }
+  .see-ngocard{
+    font-size: 170%;
+  }
+  .logo-ngocard{
+    height: 50%;
+  }
+  .email-footer{
+    font-size: 100%;
+  }
+  .slogan-homepage{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .banner-homepage{
+    height: 500%;
+  }
+}
+@media (width<=803px){
+  .div3-footer p{
+    font-size: 100% ;
+  }
+  .layout-highligths ul li{
+    font-size: 100%;
+  }
+  .email-footer{
+    font-size: 90%;
+  }
+  .form-contact textarea{
+    width: 500px;
+
+  }
+}
+@media only screen and (width>=565px) and (width<=764px){
+  .card-homecard{
+    width:45%;
+    height: 100%;
+  }
+  .more-homecard{
+    padding-bottom: 4%;
+  }
+  .head-homepage{
+    font-size: 345%;
+  }
+  .second-homepage{
+    font-size: 140%; 
+  }
+  .topic-homecard{
+    font-size: 130%;
+  }
+  .logo-ngocard{
+    height: 40%;
+    width:110%;
+  }
+}
+@media(width<=768px){
+  .head-homepage{
+    font-size: 300%;
+  }
+}
+@media (width<=690px){
+   .div1-footer{
+    width: 30%;
+   }
+   .div2-footer{
+    width: 20%;
+   }
+   .div3-footer{
+    width: 50%;
+   }
+   .div4-footer{
+    display: none;
+    visibility: hidden;
+   }
+   .second-homepage{
+    font-size: 110%; 
+  }
+  .banner-homepage{
+    height: 100%;
+  }
+  .email-footer{
+    font-size: 100%;
+  }
+  .layout-highligths ul li{
+    font-size: 90%;
+  }
+  .header-contact h1{
+    font-size: 190%;
+  }
+  .head-highligths h2{
+    font-size: 100%;
+  }
+  .header-contact h3{
+    font-size: 90%;
+  }
+  .inquiries-contact{
+    font-size: 100%;
+  }
+  .box-footer{
+    height: 150%;
+  }
+}
+@media (width<=634px){
+  .card-ngocard{
+    height: 100%;
+    padding: 3%;
+  }
+  .img-ngocard{
+    display: none;
+    visibility: hidden;
+  }
+  .box-ngocard{
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+@media (width<=581px){
+  .header-contact h1{
+    font-size: 150%;
+  }
+  .email-footer{
+    font-size: 90%;
+  }
+}
+@media(width<=555px)
+{
+  .form-contact input{
+    width:360px;
+  }
+  .form-contact textarea{
+    width:360px;
+    height:70px;
+
+  }
+  .form-feedback input{
+    width:360px;
+  }
+  .form-feedback textarea{
+    width:360px;
+  }
+  .div2-footer{
+    display: none;
+    visibility: hidden;
+   }
+   .div1-footer{
+    width: 45%;
+   }
+   .div3-footer{
+    width: 60%;
+   }
+   .email-footer{
+    font-size: 120%;
+  }
+  .second-homepage{
+    font-size: 100%; 
+  }
+  .first-homepage{
+    font-size:78%;
+  }
+}
+@media (width<=481px){
+  .header-contact h1{
+    font-size: 120%;
+  }
+  .second-homepage{
+    font-size: 83%; 
+  }
+  .head-highligths h1{
+    font-size: 140%;
+  }
+  .head-highligths h2{
+    font-size: 90%;
+  }
+  .sublay-highligths ul li{
+    font-size: 80%;
+  }
+  .email-footer{
+    font-size: 112%;
+  }
+  .head-homepage{
+    font-size: 250%;
+  }
+}
+@media (width<=426px){
+  .second-homepage{
+    font-size: 80%; 
+  }
+  .subbox-footer{
+    display: inline;
+  }
+  .div1-footer{
+    height: 50%;
+    width:100%;
+  }
+  .div3-footer{
+    height: 45%;
+    width: 100%;
+  }
+  .head-highligths{
+    margin: 0px;
+  }
+  .sublay-highligths{
+    display: inline;
+    height: 90%;
+    padding: 3%;
+  }
+  .layout-highligths{
+    height:300px;
+    padding:3%;
+  }
+  .btn{
+        padding-right: 7px;
+        padding-left: 7px;
+  }
+  .detail{
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  .content h4{
+      font-size:90%;
+  }
+}
+@media (width<=406px){
+  .form-contact input{
+    width:300px;
+  }
+  .form-contact textarea{
+    width:300px;
+    height:70px;
+  }
+  .form-feedback input{
+    width:300px;
+  }
+  .form-feedback textarea{
+    width:300px;
+  }
+  .header-contact h1{
+    font-size: 100%;
+  }
+  .header-contact h3{
+    font-size: 75%;
+  }
+  .card-homecard{
+    width:90%;
+  }
+  .topic-homecard{
+    font-size: 160%;
+  }
+  .head-homepage{
+    font-size: 200%;
+  }
+  .header-contact{
+    height: 150px;
+    padding-top: 8%;
+  }
+  .sublay-highligths{
+    height: 95%;
+  }
+}
+@media (width<=373px){
+  .sublay-highligths ul li{
+    font-size: 70%;
+  }
+  .second-homepage{
+    font-size: 70%; 
+  }
+  .first-homepage{
+    font-size: 50%;
+  }
+  .third-homepage{
+    font-size: 50%;
+  }
+}
+@media(width<=353px){
+  .header-contact h1{
+    font-size: 80%;
+  }
+  .form-contact input{
+    width:280px;
+  }
+  .form-contact textarea{
+    width:280px;
+    height:65px;
+  }
+  .form-feedback input{
+    width:280px;
+  }
+  .form-feedback textarea{
+    width:280px;
+  }
+  .second-homepage{
+    font-size: 60%; 
+  }
+  .content h4{
+      font-size:80%;
+  }
+  .detail{
+      height: 25%;
+  }
+  .info p{
+      font-size: 85%;
+  }
+}
