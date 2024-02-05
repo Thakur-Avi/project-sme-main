@@ -65,11 +65,10 @@ const Navbar = () => {
         <div className="header__right" id="navbar">
         {/* <img src={logo} alt=""/> */}
           <NavLink className="headerOption" activeClassName="active_class" to="/">Home</NavLink>
+          <NavLink className="headerOption" activeClassName="active_class" to="/scheme">All Schemes</NavLink>
+          <NavLink className="headerOption" activeClassName="active_class" to="/sponsor">NGO</NavLink>
           <NavLink className="headerOption" activeClassName="active_class" to="/about">About Us</NavLink>
           <NavLink className="headerOption" activeClassName="active_class" to="/contact">Contact Us</NavLink>
-          <NavLink className="headerOption" activeClassName="active_class" to="/scheme">All Schemes</NavLink>
-          <NavLink className="headerOption" activeClassName="active_class" to="/sponsor">Our Collaborators</NavLink>
-          {/* <NavLink className="headerOption" activeClassName="active_class" to="/signUp">Sign Up</NavLink> */}
           {user===null && <NavLink className="headerOption" activeClassName="active_class" to="/signUp">Sign Up</NavLink>} 
           {user != null && <><NavLink className="headerOption" activeClassName="active_class" to="/">Hello {user.displayName}! Points: {point}</NavLink>
           <NavLink className="headerOption" activeClassName="active_class" to="/" onClick={handleLogout}>Logout</NavLink></>}
